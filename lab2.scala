@@ -1,12 +1,14 @@
 import java.math.BigInteger
+import java.math.BigInteger.ONE
+import java.math.BigInteger.ZERO
 
 class NewFib(fib: List[Int]) { 
   val list = fib
 
   def toIntHelper2(n: BigInteger): BigInteger = { n match {
-      case BigInteger.ONE => n
-      case BigInteger.ZERO => n
-      case i => toIntHelper2(n.subtract(BigInteger.ONE)).add(toIntHelper2(n.subtract(BigInteger.ONE).subtract(BigInteger.ONE))) 
+      case ONE => n
+      case ZERO => n
+      case i => toIntHelper2(n.subtract(ONE)).add(toIntHelper2(n.subtract(ONE).subtract(ONE))) 
     }
   }
 	
