@@ -77,8 +77,8 @@ object Main {
     println("toInteger:")
     println(fibNum54.toInteger) 
     println(fibNum7.toInteger)
-	println(fibNum13.toInteger)
-	println(fibNum6.toInteger)
+    println(fibNum13.toInteger)
+    println(fibNum6.toInteger)
 
     println()
 
