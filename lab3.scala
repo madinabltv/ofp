@@ -22,3 +22,8 @@ println(seq1.merge(seq2))
 
 val seq3 = SortedSeq(4, 2.5, 3.5, 9, 1)
 println(seq3.multiply(2)) 
+
+val seq4 = SortedSeq('a', 'k' , 'g', 'w')
+val seq5 = SortedSeq('a', 'm', 'i', 'v')
+println(seq4.merge(seq5)) 
+
